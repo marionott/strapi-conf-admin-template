@@ -1,62 +1,50 @@
 {
   "global": {
-    "id": 1,
     "published_at": "2021-02-17T16:05:54.500Z",
     "created_at": "2021-02-17T16:05:51.544Z",
     "updated_at": "2021-04-12T11:17:08.642Z",
     "eventDate": "2021-04-22T10:00:00.000Z",
     "navigation": {
-      "id": 1,
       "links": [
         {
-          "id": 2,
           "text": "Stage: Adopt ",
           "url": "/stage/adopt"
         },
         {
-          "id": 3,
           "text": "Stage: Build ",
           "url": "/stage/build"
         },
         {
-          "id": 12,
           "text": "Stage: Integrate ",
           "url": "/stage/integrate"
         },
         {
-          "id": 4,
           "text": "Schedule",
           "url": "/schedule"
         },
         {
-          "id": 5,
           "text": "Speakers",
           "url": "/speakers"
         },
         {
-          "id": 6,
           "text": "Expo",
           "url": "/expo"
         },
         {
-          "id": 68,
           "text": "Workshops",
           "url": "/workshops"
         },
         {
-          "id": 7,
           "text": "Jobs",
           "url": "/jobs"
         },
         {
-          "id": 75,
           "text": "Perks",
           "url": "/perks"
         }
       ]
     },
     "edito": {
-      "id": 1,
       "homeTitle": "# The first Strapi Global \nUser Conference",
       "homeSubtitle": "## A virtual conference for the Strapi community, \nfree for everyone",
       "joinTitle": "Join the conference",
@@ -64,21 +52,17 @@
       "learnMore": "Learn more about Strapi on [Github](https://github.com/strapi/strapi)."
     },
     "footer": {
-      "id": 1,
       "credits": "Copyright © 2021 Strapi, Inc. All rights reserved.",
       "links": [
         {
-          "id": 8,
           "text": "Source code",
           "url": "https://github.com/strapi/strapiconf"
         },
         {
-          "id": 9,
           "text": "Code of conduct",
           "url": "https://github.com/strapi/strapi/blob/master/CODE_OF_CONDUCT.md"
         },
         {
-          "id": 10,
           "text": "Legal",
           "url": "https://strapi.io/privacy"
         }
