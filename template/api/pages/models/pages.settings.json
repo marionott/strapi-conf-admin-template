@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "page_settings",
+  "collectionName": "pages",
   "info": {
-    "name": "pageSettings",
+    "name": "pagesSettings",
     "description": ""
   },
   "options": {
@@ -19,7 +19,10 @@
         "schedule",
         "speakers",
         "sponsors",
-        "jobs"
+        "jobs",
+        "perks",
+        "ticket",
+        "workshops"
       ]
     },
     "settings": {
