@@ -136,9 +136,11 @@ async function importTalks() {
 }
 
 async function importPages() {
-  return pages.map((page) => {
-    return strapi.services.page.create(page)
-  })
+  return Promise.all(
+    pages.map((page) => {
+      return createEntry({ model: 'page', entry: page })
+    })
+  )
 }
 
 async function importGlobal() {
