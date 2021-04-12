@@ -136,11 +136,10 @@ async function importTalks() {
 }
 
 async function importPages() {
-  return Promise.all(
-    pages.map((page) => {
-      return createEntry({ model: 'page', entry: page })
-    })
-  )
+  console.log({ pages })
+  return pages.map((page) => {
+    return strapi.services.page.create(page)
+  })
 }
 
 async function importGlobal() {
