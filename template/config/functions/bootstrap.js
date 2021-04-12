@@ -138,12 +138,12 @@ async function importTalks() {
 async function importPages() {
   return pages.map((page) => {
     console.log(strapi.services, { page })
-    return strapi.services.page.create(page)
+    return strapi.services.pages.create(page)
   })
 }
 
 async function importGlobal() {
-  return createEntry({ model: 'global', entry: globalData })
+  return strapi.services.global.createOrUpdate(global)
 }
 
 async function importSeedData() {
@@ -154,8 +154,8 @@ async function importSeedData() {
     speaker: ['find', 'findone'],
     stage: ['find', 'findone'],
     talk: ['find', 'findone'],
-    page: ['find', 'findone']
-    // global: ['find']
+    page: ['find', 'findone'],
+    global: ['find']
   })
 
   // Create all entries
@@ -165,7 +165,7 @@ async function importSeedData() {
   await importTalks()
   await importSpeakers()
   await importPages()
-  // await importGlobal()
+  await importGlobal()
 }
 
 module.exports = async () => {
