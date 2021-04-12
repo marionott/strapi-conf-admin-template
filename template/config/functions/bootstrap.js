@@ -137,7 +137,6 @@ async function importTalks() {
 
 async function importPages() {
   return pages.map((page) => {
-    console.log(strapi.services, { page })
     return strapi.services.pages.create(page)
   })
 }
