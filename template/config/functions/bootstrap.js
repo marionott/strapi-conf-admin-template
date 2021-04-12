@@ -142,7 +142,7 @@ async function importPages() {
 }
 
 async function importGlobal() {
-  return strapi.query('global').create(global)
+  return createEntry({ model: 'global', entry: global })
 }
 
 async function importSeedData() {
