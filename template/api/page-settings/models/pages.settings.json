@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "pages",
+  "collectionName": "page_settings",
   "info": {
-    "name": "pagesSettings",
+    "name": "pageSettings",
     "description": ""
   },
   "options": {

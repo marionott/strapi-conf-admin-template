@@ -1,5 +1,5 @@
 {
-  "global": {
+  "globalData": {
     "eventDate": "2021-04-22T10:00:00.000Z",
     "navigation": {
       "links": [
@@ -58,7 +58,7 @@
       ]
     }
   },
-  "pages": [
+  "pageSettings": [
     {
       "type": "jobs",
       "settings": {

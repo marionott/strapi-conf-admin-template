@@ -1,7 +1,7 @@
 const fs = require('fs')
 const {
-  global,
-  pages,
+  globalData,
+  pageSettings,
   sponsors,
   jobs,
   speakers,
@@ -135,15 +135,15 @@ async function importTalks() {
   })
 }
 
-async function importPages() {
-  console.log({ pages })
-  return pages.map((page) => {
-    return strapi.services.page.create(page)
+async function importPageSettings() {
+  console.log(strapi.services)
+  return pageSettings.map((pageSetting) => {
+    return strapi.services.pageSettings.create(pageSetting)
   })
 }
 
 async function importGlobal() {
-  return createEntry({ model: 'global', entry: global })
+  return createEntry({ model: 'global', entry: globalData })
 }
 
 async function importSeedData() {
@@ -154,7 +154,7 @@ async function importSeedData() {
     speaker: ['find', 'findone'],
     stage: ['find', 'findone'],
     talk: ['find', 'findone'],
-    pages: ['find', 'findone']
+    pageSettings: ['find', 'findone']
     // global: ['find']
   })
 
@@ -164,7 +164,7 @@ async function importSeedData() {
   await importStages()
   await importTalks()
   await importSpeakers()
-  await importPages()
+  await importPageSettings()
   // await importGlobal()
 }
 
