@@ -1,5 +1,7 @@
 const fs = require('fs')
 const {
+  global,
+  pages,
   sponsors,
   jobs,
   speakers,
@@ -133,6 +135,16 @@ async function importTalks() {
   })
 }
 
+async function importPages() {
+  return pages.map((page) => {
+    return strapi.services.page.create(page)
+  })
+}
+
+async function importGlobal() {
+  return strapi.services.global.create(global)
+}
+
 async function importSeedData() {
   // Allow read of application content types
   await setPublicPermissions({
@@ -144,6 +156,8 @@ async function importSeedData() {
   })
 
   // Create all entries
+  await importGlobal()
+  await importPages()
   await importSponsors()
   await importJobs()
   await importStages()
