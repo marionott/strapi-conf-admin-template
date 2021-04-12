@@ -153,8 +153,8 @@ async function importSeedData() {
     speaker: ['find', 'findone'],
     stage: ['find', 'findone'],
     talk: ['find', 'findone'],
-    pages: ['find', 'findone'],
-    global: ['find']
+    pages: ['find', 'findone']
+    // global: ['find']
   })
 
   // Create all entries
@@ -164,7 +164,7 @@ async function importSeedData() {
   await importTalks()
   await importSpeakers()
   await importPages()
-  await importGlobal()
+  // await importGlobal()
 }
 
 module.exports = async () => {
