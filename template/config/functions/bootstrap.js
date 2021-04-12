@@ -153,7 +153,7 @@ async function importSeedData() {
     speaker: ['find', 'findone'],
     stage: ['find', 'findone'],
     talk: ['find', 'findone'],
-    page: ['find', 'findone'],
+    pages: ['find', 'findone'],
     global: ['find']
   })
 
