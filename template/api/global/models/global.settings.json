@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "name": "global",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "navigation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.navigation"
+    },
+    "formSettings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.form-settings"
+    },
+    "edito": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.edito"
+    },
+    "eventDate": {
+      "type": "datetime"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.footer"
+    }
+  }
+}
