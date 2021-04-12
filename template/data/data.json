@@ -1,8 +1,5 @@
 {
   "global": {
-    "published_at": "2021-02-17T16:05:54.500Z",
-    "created_at": "2021-02-17T16:05:51.544Z",
-    "updated_at": "2021-04-12T11:17:08.642Z",
     "eventDate": "2021-04-22T10:00:00.000Z",
     "navigation": {
       "links": [
@@ -31,16 +28,8 @@
           "url": "/expo"
         },
         {
-          "text": "Workshops",
-          "url": "/workshops"
-        },
-        {
           "text": "Jobs",
           "url": "/jobs"
-        },
-        {
-          "text": "Perks",
-          "url": "/perks"
         }
       ]
     },
@@ -73,110 +62,62 @@
     {
       "type": "jobs",
       "settings": {
-        "id": 4,
         "metaTitle": "Jobs - StrapiConf",
         "metaDescription": "Learn more about the job opportunities available in the Strapi and JAMstack ecosystem. ",
         "title": "Jobs - StrapiConf",
         "description": "Learn more about the job opportunities available in the Strapi and JAMstack ecosystem. ",
         "metaImage": null
-      },
-      "id": 1
-    },
-    {
-      "type": "ticket",
-      "settings": {
-        "id": 6,
-        "metaTitle": "",
-        "metaDescription": "Join %name% for the first Strapi Global user conference. A virtual conference for the Strapi community, free for everyone. ",
-        "title": "",
-        "description": "Join %name% for the first Strapi Global user conference. A virtual conference for the Strapi community, free for everyone. ",
-        "metaImage": null
-      },
-      "id": 2
+      }
     },
     {
       "type": "stages",
       "settings": {
-        "id": 11,
         "metaTitle": "Stage",
         "metaDescription": null,
         "title": "Stage",
         "description": null,
         "metaImage": null
-      },
-      "id": 3
+      }
     },
     {
       "type": "speakers",
       "settings": {
-        "id": 2,
         "metaTitle": "Speakers - StrapiConf",
         "metaDescription": "Learn more about all the awesome StrapiConf speakers and breakout sessions",
         "title": "Speakers - StrapiConf",
         "description": "Learn more about all the awesome StrapiConf speakers and breakout sessions",
         "metaImage": null
-      },
-      "id": 4
+      }
     },
     {
       "type": "homepage",
       "settings": {
-        "id": 1,
         "metaTitle": "StrapiConf - User conference for the Strapi community",
         "metaDescription": "A 1-day conference taking place on April 22nd, 2021 from 8 am to 3 pm PST for the Strapi Community to learn, contribute, and collaborate on the future of the leading open-source Headless CMS. \n\n",
         "title": "StrapiConf - user conference for the Strapi community",
         "description": "A 1-day conference taking place on April 22nd, 2021 from 8 am to 3 pm PST for the Strapi Community to learn, contribute, and collaborate on the future of the leading open-source Headless CMS. \n",
         "metaImage": null
-      },
-      "id": 5
+      }
     },
     {
       "type": "sponsors",
       "settings": {
-        "id": 10,
         "metaTitle": "Expo - StrapiConf",
         "metaDescription": "Meet our awesome StrapiConf sponsors! ",
         "title": "Expo - StrapiConf",
         "description": "Meet our awesome StrapiConf sponsors! ",
         "metaImage": null
-      },
-      "id": 6
-    },
-    {
-      "type": "workshops",
-      "settings": {
-        "id": 63,
-        "metaTitle": "Workshops - StrapiConf",
-        "metaDescription": "Register now to join one of the workshops happening at StrapiConf",
-        "title": "Workshops - StrapiConf",
-        "description": "Register now to join one of the workshops happening at StrapiConf",
-        "metaImage": null
-      },
-      "id": 7
+      }
     },
     {
       "type": "schedule",
       "settings": {
-        "id": 3,
         "metaTitle": "Schedule - StrapiConf",
         "metaDescription": "3 Track & 27+ sessions for everyone! Keynote starts at 8:30 AM PST (5:00 PM CET). ",
         "title": "Schedule - StrapiConf",
         "description": "3 Track & 27+ sessions for everyone! Keynote starts at 8:30 AM PST (5:00 PM CET). ",
         "metaImage": null
-      },
-      "id": 8
-    },
-    {
-      "type": "perks",
-      "settings": {
-        "id": 73,
-        "metaTitle": "Perks - StrapiConf",
-        "metaDescription": "Attending StrapiConf? We've teamed up with our sponsors to share exclusive perks with our attendees. ",
-        "title": "Perks - StrapiConf",
-        "description": "Attending StrapiConf? We've teamed up with our sponsors to share exclusive perks with our attendees. ",
-        "metaImage": null
-      },
-      "id": 9
+      }
     }
   ],
   "sponsors": [
