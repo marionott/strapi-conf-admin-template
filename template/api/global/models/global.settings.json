@@ -16,11 +16,6 @@
       "repeatable": false,
       "component": "global.navigation"
     },
-    "formSettings": {
-      "type": "component",
-      "repeatable": false,
-      "component": "global.form-settings"
-    },
     "edito": {
       "type": "component",
       "repeatable": false,

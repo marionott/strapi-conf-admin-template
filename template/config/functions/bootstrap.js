@@ -148,6 +148,8 @@ async function importGlobal() {
 async function importSeedData() {
   // Allow read of application content types
   await setPublicPermissions({
+    global: ['find'],
+    pages: ['find', 'findone'],
     sponsor: ['find', 'findone'],
     job: ['find', 'findone'],
     speaker: ['find', 'findone'],
